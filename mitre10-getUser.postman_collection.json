@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "4d100023-ec95-46b6-8b19-16440e322355",
+		"name": "mitre10",
+		"description": "Collection to get the user account by Id",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getUserAccount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8081/getUserAccounts/2"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
